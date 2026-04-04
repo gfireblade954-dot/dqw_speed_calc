@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter --version)",
+      "Read(//c/Users/gfire/.puro//**)",
+      "Read(//c/Users/gfire//**)",
+      "Bash(cmd.exe /c \"puro flutter -- --version 2>&1\")",
+      "Bash(export PATH=\"/c/Users/gfire/.puro/envs/default/flutter/bin:$PATH\" flutter --version)",
+      "Bash(cmd.exe /c \"flutter --version\")",
+      "Bash(cmd.exe /c \"where flutter\" 2>&1)",
+      "Bash(cmd.exe /c \"C:\\\\Users\\\\gfire\\\\.puro\\\\envs\\\\default\\\\flutter\\\\bin\\\\flutter.bat --version 2>&1\")",
+      "Bash(cmd.exe /c \"C:\\\\Users\\\\gfire\\\\.puro\\\\bin\\\\puro.bat flutter -- --version\" 2>&1)",
+      "Bash(cmd.exe /c \"C:\\\\Users\\\\gfire\\\\.puro\\\\bin\\\\puro.bat flutter -- --version\")",
+      "Bash(echo \"Exit: $?\")",
+      "Bash(cmd.exe /c \"echo %PATH%\")",
+      "Bash(tr ';' '\\\\n')",
+      "Bash(curl -s http://localhost:8080 -o /dev/null -w \"%{http_code}\")",
+      "Bash(pkill -f \"flutter run\")",
+      "Bash(pkill -f \"dart.*flutter\")",
+      "Bash(pkill -f \"flutter\")",
+      "Bash(curl:*)",
+      "Bash(mkdir -p /home/fireubuntu/projects/side/_management)",
+      "Bash(mv /home/fireubuntu/projects/side/Business_Strategy.md /home/fireubuntu/projects/side/CLAUDE.md /home/fireubuntu/projects/side/My_skill.md /home/fireubuntu/projects/side/collect_jobs.py /home/fireubuntu/projects/side/crowdworks_snapshot.md /home/fireubuntu/projects/side/crowdworks_vba_search.md /home/fireubuntu/projects/side/requirements.txt /home/fireubuntu/projects/side/results.txt /home/fireubuntu/projects/side/tasks /home/fireubuntu/projects/side/_management/)"
+    ]
+  }
+}
