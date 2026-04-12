@@ -43,3 +43,14 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# 機密情報ファイル
+.env
+.env.*
+*.pem
+*.key
+*_secret*
+*credentials*
+
+# Claude Code ローカル設定（個人情報含む可能性あり）
+.claude/settings.local.json
